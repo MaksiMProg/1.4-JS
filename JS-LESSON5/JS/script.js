@@ -79,13 +79,13 @@ let ourStudent = {
 };
 ourStudent.studentInfo();
 //7)
-function ourAnimal(animal, legs, predator, name) {
+function OurAnimal(animal, legs, predator, name) {
     this.animal = animal;
     this.legs = legs;
     this.predator = predator;
     this.name = name;
 }
-let dog = new ourAnimal('Dog', 4, true, 'Sharik');
-let cat = new ourAnimal('Cat', 4, true, 'Murka');
+let dog = new OurAnimal('Dog', 4, true, 'Sharik');
+let cat = new OurAnimal('Cat', 4, true, 'Murka');
 console.log(dog);
 console.log(cat);
